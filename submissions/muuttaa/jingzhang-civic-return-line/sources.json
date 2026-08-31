@@ -161,6 +161,14 @@
       "source_type": "official_public",
       "retrieved_at": "2026-08-25",
       "usage": "Waterfront Toronto source for public-space, low-carbon and public-review mechanisms; paired with the project's documented digital-governance lessons."
+    },
+    {
+      "id": "LOVART-CONCEPT-VIDEOS-20260831",
+      "source_type": "ai_generated_concept_media",
+      "retrieved_at": "2026-08-31T23:00:00+08:00",
+      "usage": "Three silent Lovart-generated concept videos for offline visual review: future AI everyday life, the AI Innovation Spiral landmark, and a four-landmark motion narrative. Submission copies were transcoded to 854 x 480 H.264 without changing sequence content; bilingual WebVTT descriptions, Markdown transcripts and local poster images are included.",
+      "generation_record": "Future AI Everyday Life: Lovart project 43ee14063e8c4703966623c8473f205d, thread ff32f7f0-d9ad-46cc-a751-0face0e70dab, returned model Seedance 2.5, original SHA-256 800744A728506BEF183BDE72BA43E6172FD21AFCDBADE0D72208BCD802F8E1FF. AI Innovation Spiral original SHA-256 38DB40BC861BBB75169B15A5E4DEF6DA02B61168BA6E30B906129442E20C64F9. Four-Landmark Motion Narrative original SHA-256 D4C47C25345A08699C74986D57B9859D749ABFEC86518253A5B567FBE05C66EF. Exact Lovart project/thread identifiers for the latter two are not present in the current local generation records.",
+      "limitations": "All people, buildings, landmarks, vegetation, signs, data overlays and small text are generative and illustrative. The videos are not site footage, map evidence, statutory planning, approved design, engineering feasibility or a construction commitment. Authoritative locations, boundaries, routes, labels, scale and metrics remain in the deterministic figures, GeoJSON and structured data."
     }
   ]
 }

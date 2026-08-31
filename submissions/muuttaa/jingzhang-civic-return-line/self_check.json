@@ -28,6 +28,18 @@
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/mobility-bluegreen.png",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/site-overview.en.png",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/site-overview.png",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/ai-innovation-spiral-poster.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/ai-innovation-spiral.md",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/ai-innovation-spiral.mp4",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/ai-innovation-spiral.vtt",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/future-ai-life-poster.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/future-ai-life.md",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/future-ai-life.mp4",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/future-ai-life.vtt",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/landmark-narrative-poster.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/landmark-narrative.md",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/landmark-narrative.mp4",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/media/landmark-narrative.vtt",
         "submissions/muuttaa/jingzhang-civic-return-line/assumptions.json",
         "submissions/muuttaa/jingzhang-civic-return-line/compliance_matrix.json",
         "submissions/muuttaa/jingzhang-civic-return-line/design_depth_matrix.json",
@@ -62,7 +74,7 @@
       "ai_package_stages": {
         "submissions/muuttaa/jingzhang-civic-return-line": "formal"
       },
-      "total_bytes": 37437355,
+      "total_bytes": 41152133,
       "maintainer_bypass": false
     },
     "stderr": ""

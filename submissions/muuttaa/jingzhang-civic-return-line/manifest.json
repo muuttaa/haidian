@@ -50,13 +50,13 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "577960d75801d62b931e8f274aa42acc341591e93f1389312afe8d24eff8b9fe"
+      "sha256": "7dc1ac89b0ea6d6e96b809cc2b2d5d4e422df678763418e009f5270ed20a2e56"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "82802e31b1112692337853d106c647875f889b8f0fb94220f8db7d742557375e"
+      "sha256": "e99fb729cd402530066a55254552a0800da73d489493e7f4ec1d4655888277bb"
     },
     {
       "path": "compliance_matrix.json",
@@ -93,7 +93,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "46553223893e03e024535baf6d69895caf0bc8dd3d4682f2e46cc607a42b6d14"
+      "sha256": "5c7d1bd8d1219396910a6374314110c3ba93c7c71d2c460b552f96f249540a02"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -114,7 +114,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "7978893c71207c75829c5e5724dd9fc9eb60d934946fa769a8c33c7de2ec6a4f"
+      "sha256": "4fd2d61545139112d3b97bca6cb0fcd84a061908abe3c505b1b47df2901db897"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "50d0bc9a7ef6c6a02a794fe26f9ccac69674b766d792edf80e10f05898a78602"
+      "sha256": "1458997fb58875fb99f539524b6293ee9f6f9472b740b7760d660959839a179d"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -284,6 +284,111 @@
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
       "sha256": "88fc0d9011a4b9cd8cda92850b555581bb2b6f8638fa18979aa5dfaeab469477"
+    },
+    {
+      "path": "assets/media/future-ai-life.mp4",
+      "role": "video",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "未来 AI 生活场景",
+      "title_en": "Future AI Everyday Life",
+      "description_zh": "生成式概念短片，展示林荫慢行、铁路遗产公园与公共生活的未来氛围；不作为现场或工程证据。",
+      "description_en": "A generative concept film of tree-lined mobility, rail-heritage commons and future public life; it is not site or engineering evidence.",
+      "poster": "assets/media/future-ai-life-poster.jpg",
+      "caption": "assets/media/future-ai-life.vtt",
+      "transcript": "assets/media/future-ai-life.md",
+      "sha256": "d40f6f21db9a304ad3e476bced68a08f5897dec864b01bfbf4e2025a18cf134a"
+    },
+    {
+      "path": "assets/media/future-ai-life-poster.jpg",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "sha256": "6566c87fc8720a13f89557db87c8e93b194ef2601cb27ad892a57b46bc12ac68"
+    },
+    {
+      "path": "assets/media/future-ai-life.vtt",
+      "role": "caption_track",
+      "required": false,
+      "language": "neutral",
+      "sha256": "f55d665b2cc029aa790412a0853b010c1865ad1a106e3f6d10db590221130d7c"
+    },
+    {
+      "path": "assets/media/future-ai-life.md",
+      "role": "transcript",
+      "required": false,
+      "language": "neutral",
+      "sha256": "835f72e219ddc9c0f6da0d6b5a7d0a35490795e76092b7fff69276ebb76d4ba6"
+    },
+    {
+      "path": "assets/media/ai-innovation-spiral.mp4",
+      "role": "video",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "AI 创新螺旋地标",
+      "title_en": "AI Innovation Spiral Landmark",
+      "description_zh": "生成式概念短片，以发光环体和双螺旋地标表达创新网络与公共艺术；不代表批准建设方案。",
+      "description_en": "A generative concept film using luminous rings and a double-helix landmark to express innovation networks and civic art; it is not an approved design.",
+      "poster": "assets/media/ai-innovation-spiral-poster.jpg",
+      "caption": "assets/media/ai-innovation-spiral.vtt",
+      "transcript": "assets/media/ai-innovation-spiral.md",
+      "sha256": "250bf735a05891488b31c4cd8a10d0bb1e09131aad608abb9fdd167d23004442"
+    },
+    {
+      "path": "assets/media/ai-innovation-spiral-poster.jpg",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "sha256": "e51e7d485645bd198d1a15552987506d7fc54a9d42aa936c3489fe96f92cd930"
+    },
+    {
+      "path": "assets/media/ai-innovation-spiral.vtt",
+      "role": "caption_track",
+      "required": false,
+      "language": "neutral",
+      "sha256": "94b1e3fe8e83e9f908f51b4101a1136d7faa9ee38e31fefc072cc3d786ca5a9a"
+    },
+    {
+      "path": "assets/media/ai-innovation-spiral.md",
+      "role": "transcript",
+      "required": false,
+      "language": "neutral",
+      "sha256": "e25084440a07fe44255a93405e033b78cfc98e7611bd174a8fe45ffb3bbf9bb2"
+    },
+    {
+      "path": "assets/media/landmark-narrative.mp4",
+      "role": "video",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "四组地标动态叙事",
+      "title_en": "Four-Landmark Motion Narrative",
+      "description_zh": "生成式概念短片，以总体鸟瞰和四组地标表达铁路记忆、公共到达、生态共生与创新协作。",
+      "description_en": "A generative concept film combining an aerial overview with four landmarks for rail memory, civic arrival, ecological coexistence and collaborative innovation.",
+      "poster": "assets/media/landmark-narrative-poster.jpg",
+      "caption": "assets/media/landmark-narrative.vtt",
+      "transcript": "assets/media/landmark-narrative.md",
+      "sha256": "77d074613f81ab4f40a2420bc8d966e21c40df7b246effc9816480146730542a"
+    },
+    {
+      "path": "assets/media/landmark-narrative-poster.jpg",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "sha256": "214603c4525663c5ed6f5ed54b3d9fb366e153951b28f5c39536e53310e1ea85"
+    },
+    {
+      "path": "assets/media/landmark-narrative.vtt",
+      "role": "caption_track",
+      "required": false,
+      "language": "neutral",
+      "sha256": "8628648cc89b534e6906f0c64b0870aa1972a9b019f0ff5725e3f0b17ba9d806"
+    },
+    {
+      "path": "assets/media/landmark-narrative.md",
+      "role": "transcript",
+      "required": false,
+      "language": "neutral",
+      "sha256": "18e2a97583942abac0bea7fb326748cfa26edb5b4bd4f3fa6ddd3741daa932b0"
     }
   ],
   "validation_claim": {
