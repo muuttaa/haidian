@@ -1,0 +1,166 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "PROCESSED-SCOPE-SUMMARY",
+      "path": "data/processed/project_scope_summary.csv",
+      "source_type": "repository_processed_reference",
+      "usage": "Public repository navigation table summarizing the three scope levels; used only as an index back to registered primary sources."
+    },
+    {
+      "id": "PROCESSED-AGENT-REQUIREMENTS",
+      "path": "data/processed/agent_task_requirements.csv",
+      "source_type": "repository_processed_reference",
+      "usage": "Public repository navigation table for agent.1-agent.6 coverage; not an independent planning authority."
+    },
+    {
+      "id": "PROCESSED-SOURCE-USE",
+      "path": "data/processed/source_use_matrix.csv",
+      "source_type": "repository_processed_reference",
+      "usage": "Public repository navigation table for source usability and restrictions; authoritative status remains in data/source_registry.json."
+    },
+    {
+      "id": "PROCESSED-MISSING-DATA",
+      "path": "data/processed/missing_data_checklist.csv",
+      "source_type": "repository_processed_reference",
+      "usage": "Public repository checklist of organizer and professional data gaps; used to disclose assumptions and recalculation requirements."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "AMAP-CONTEXT-BASEMAP",
+      "path": "assets/figures/",
+      "source_type": "third_party_map_context",
+      "usage": "AutoNavi/AMap basemap appears only as attributed geographic context in final raster figures; no statutory boundary or planning control is inferred from it."
+    },
+    {
+      "id": "LOVART-VISUAL-STUDY-20260824",
+      "source_type": "ai_generated_visual_study",
+      "usage": "Lovart-generated studies informed visual hierarchy and palette only. Hallucinated roads, labels and boundaries were rejected; verified local overlays remain authoritative.",
+      "generation_record": "Lovart project 2390c2f50b7e4aa99c24cf13c56fc316; accepted geometry-free style studies only. Thread 8473dfc9-3453-4f23-b99e-abf441600e returned clarification and produced no accepted artifact."
+    },
+    {
+      "id": "LOVART-SCENES-20260827",
+      "source_type": "ai_generated_design_scenes",
+      "retrieved_at": "2026-08-27T06:00:00+08:00",
+      "usage": "Six text-free concept scenes for the A3 booklet and A0 boards. Each scene was generated only after an AMap-based V1-V6 viewpoint control image fixed the named anchor and viewing direction. The scenes communicate spatial experience, material and activity only; they are not site photographs, map evidence, approved design or construction information.",
+      "generation_record": "Lovart project 2390c2f50b7e4aa99c24cf13c56fc316; V1-V2 thread 0d49597b-c184-4efe-84c8-b2ab2d811d74; V3 thread 4466e543-86f6-420e-aefe-99033fa89fbb; V4 thread 6f0ac4e0-4ad2-481e-87ea-61e6e14c5227; V5 thread 6c43ae94-101c-428d-b99a-d919c8f859d4; V6 thread 6d711616-5811-43c9-9eb5-3d1474ad0973. Accepted assets are assets/figures/scene-v1.png through scene-v6.png.",
+      "limitations": "Generated architecture, people, vegetation, signs and small text are illustrative. Location, boundary, route, anchor, label and scale remain controlled by the separate AMap/GeoJSON figures."
+    },
+    {
+      "id": "AMAP-ORIGIN-ANCHORS-20260825",
+      "url": "https://www.amap.com/",
+      "source_type": "third_party_map_context",
+      "retrieved_at": "2026-08-25T12:00:00+08:00",
+      "spatial_reference": "GCJ-02",
+      "usage": "Position audit for A0 Origin Building (116.333645,39.994249) and S1 Wudaokou Station (116.337581,39.993138); context only, not a statutory boundary.",
+      "limitations": "POI coordinates and raster context do not establish ownership, redlines, community extents or engineering feasibility."
+    },
+    {
+      "id": "OSM-JINGZHANG-PARK-20260825",
+      "url": "https://www.openstreetmap.org/copyright",
+      "source_type": "public_open_data",
+      "retrieved_at": "2026-08-25T12:00:00+08:00",
+      "license": "Open Database License (ODbL); attribution required",
+      "transformation": "OSM ways 1190723117 and 122348403 were converted from WGS84 to GCJ-02 for AMap overlay and checked as two closed named park polygons.",
+      "usage": "Existing public park geometry for position control and conceptual public-space relationships; not a planning boundary."
+    },
+    {
+      "id": "DATA-SRC-ORIGIN-ANCHOR-AUDIT-20260825",
+      "path": "../../../../work/position_audit_v09/QA_位置控制图_V10.json",
+      "source_type": "agent_derived_validation",
+      "retrieved_at": "2026-08-25T12:00:00+08:00",
+      "usage": "Records 40/40 AMap tiles loaded, two verified anchors, two closed park polygons and zero unverified boundaries; drives ALIGN-V12-20260825 west realignment.",
+      "limitations": "The audit validates relative position only. The 104.3 ha study envelope remains synthetic and is hidden from submission maps."
+    },
+    {
+      "id": "CASE-WOVEN-CITY",
+      "url": "https://global.toyota/en/newsroom/corporate/43347785.html",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-25",
+      "usage": "Primary case source for Inventors, Weavers, phased real-world testing and human feedback."
+    },
+    {
+      "id": "CASE-ONE-NORTH",
+      "url": "https://www.jtc.gov.sg/find-space/launchpad--onenorth",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-25",
+      "usage": "Primary case source for co-location of start-ups, incubators, accelerators and venture capital within a work-live-play-learn district."
+    },
+    {
+      "id": "CASE-22BARCELONA",
+      "url": "https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/140845/5/Barcelona-impulsa_2025-2035_angles.pdf",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-25",
+      "usage": "Barcelona municipal source for 22@ as an urban, economic and social renewal project integrating innovation hubs, transit, green and cultural assets."
+    },
+    {
+      "id": "CASE-STATION-F",
+      "url": "https://stationf.co/programs",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-25",
+      "usage": "Primary case source for a shared startup campus with multiple entry, accelerator and industry programs, including AI and urban themes."
+    },
+    {
+      "id": "CASE-MASDAR",
+      "url": "https://masdarcity.ae/tech-and-innovation/tech",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-25",
+      "usage": "Primary case source for an innovation ecosystem combining a free zone, multinationals, research institutions and sustainability clusters."
+    },
+    {
+      "id": "CASE-KENDALL",
+      "url": "https://www.cambridgema.gov/CDD/parks/osplanning/ecambkendallparks",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-25",
+      "usage": "City of Cambridge source for a connected, managed and programmed public-space network serving an innovation district and adjacent communities."
+    },
+    {
+      "id": "CASE-QUAYSIDE",
+      "url": "https://www.waterfrontoronto.ca/our-projects/quayside",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-25",
+      "usage": "Waterfront Toronto source for public-space, low-carbon and public-review mechanisms; paired with the project's documented digital-governance lessons."
+    }
+  ]
+}
