@@ -19,6 +19,10 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 本方案不把京张铁路只当作一条历史遗迹，也不把 AI 只当作园区标签。我们提出一条能“返回”城市日常的公共创新线路：让创新从封闭园区返回街道，让青年从旁观者返回共同建设者，让技术从演示返回可监督的真实服务。
 
+![京张回程线概念封面](assets/figures/cover-hero.jpg)
+
+*封面用于表达“0—10—100—0+、三区两翼”的总体叙事与第一视觉，不作为地图、边界、比例尺、正式名称或工程证据；空间判断仍以下方位置控制图、GeoJSON 与结构化数据为准 [source:LOVART-COVER-20260901]。*
+
 ## 设计依据与资料清单
 
 方案以公开征集公告和面向智能体任务书为任务依据 [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]，以来源登记表约束公开、背景和临时资料的用途 [source:SOURCE-REGISTRY]。所有空间结论落到 GeoJSON，所有可计算数值落到 `metrics.json`，所有无法确认的控规、权属、市政和文保条件保持 `unknown`。
@@ -26,6 +30,10 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 当前总体设计范围来自临时边界 [data:geometry/site_boundary.geojson#SITE-001]，复算面积约 11.41 平方公里 [metric:site_area_sqm]。它只支持概念设计、复算和讨论，不代表官方红线或审批结论；正式 polygon 发布后，九层 GeoJSON、指标、图件和图纸应整体重算。
 
 ![总体结构与证据入口](assets/figures/site-overview.png)
+
+![总体结构位置控制图：公园、三区与企业锚点](assets/figures/overall-position-control.jpg)
+
+*位置控制图保留高德底图署名与 GCJ-02 语境，只核验公园、三处重点区和企业锚点的相对位置；研究范围、社区边界、权属、控规和工程条件仍为临时或未知 [source:AMAP-CONTEXT-BASEMAP] [source:DETERMINISTIC-MAP-SET-20260825]。*
 
 ## 三层范围工作框架
 
@@ -81,6 +89,14 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 众智园采用临时范围 [data:geometry/key_areas.geojson#PROV-KEY-001]；原点社区采用不出图的等面积研究包络 [data:geometry/key_areas.geojson#PROV-KEY-002]；大钟寺采用临时范围 [data:geometry/key_areas.geojson#PROV-KEY-003]。三者均需在正式边界、权属、交通和工程条件到位后深化。
 
 ![三个重点区设计任务](assets/figures/key-areas.png)
+
+下列三张位置控制图把“重点区域”从任务表推进到可审查的空间落位；图上的研究线位、范围和策略均为方案表达，不替代官方 polygon、权属红线、道路红线或工程设计 [source:DETERMINISTIC-MAP-SET-20260825]。
+
+![众智园 AI 自主创新加速区整体规划结构](assets/figures/key-area-zhongzhiyuan.jpg)
+
+![北京 AI 原点社区整体规划结构](assets/figures/key-area-origin.jpg)
+
+![大钟寺 AI 产业集聚区整体规划结构](assets/figures/key-area-dazhongsi.jpg)
 
 ## AI 创新生态、人才画像与 AI+ 场景
 
@@ -146,7 +162,17 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 2026-08-27 已对上述三条旅程完成 12 项离线桌面失败演练：网络中断、坡道阻断、拥挤、错误无障碍路线、无账号、拒绝画像、重复预约、夜间超容量、错误公告、人工空岗、申诉超时和数据删除超期。12/12 场景均具备安全停止、非 AI 备选、人工责任、审计字段和恢复/退出条件；但现场/运营性能验证仍为 0/12，人工接管时间、申诉响应、无障碍路线和场地回归均未实测，不得写成已达标 [data:simulation.json]。
 
+![12项失败演练的协议证据与现场验证边界](assets/figures/failure-rehearsal.png)
+
 真实基线采用三条样带：众智园—学知园站—清河接口、五道口—成府路—AI 原点 D 座界面、大钟寺站—蓟门停车场—京张公园接口；工作日与周末分别在早、午、晚、夜做 20 分钟样本，共 24 个计划样本。当前全部标为 `field_not_collected`，只有原始照片、WGS84 坐标、时间、观察者和 SHA-256 可回查后，才可改为现场事实 [data:simulation.json]。
+
+本团队另有 499 张微信转存现场照片，经哈希去重得到 495 张唯一图像，并整理为下列三张联系表。它们能够证明团队曾开展现场踏勘，并记录园区内部、原点周边、道路过街、阻隔、公园及昼夜视觉条件；但转存照片均缺少可读 EXIF 时间与 GPS，因此只作为“现场视觉证据”，不计入 24 个结构化样本，`field_collected_count` 继续保持 0 [source:FIELD-PHOTO-AUDIT-20260831]。
+
+![现场总体与沿线环境证据](assets/figures/field-overview.jpg)
+
+![北京 AI 原点及周边现场证据](assets/figures/field-origin.jpg)
+
+![京张公园与昼夜环境现场证据](assets/figures/field-park-day-night.jpg)
 
 ## 用地、建筑规模与拆改留方案
 

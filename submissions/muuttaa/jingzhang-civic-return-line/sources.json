@@ -88,6 +88,28 @@
       "limitations": "Generated architecture, people, vegetation, signs and small text are illustrative. Location, boundary, route, anchor, label and scale remain controlled by the separate AMap/GeoJSON figures."
     },
     {
+      "id": "LOVART-COVER-20260901",
+      "source_type": "ai_generated_visual_study",
+      "retrieved_at": "2026-09-01T00:00:00+08:00",
+      "usage": "Approved Chinese and English 16:9 concept covers for the proposal and offline visual entry page. The covers communicate the Jingzhang Civic Return Line, 0-10-100-0+ and Three Areas-Two Wings narrative only.",
+      "generation_record": "Lovart-generated assets selected by the submitting account holder from the local folder Lovart封面_总体结构与三层范围/02_横版封面. Exact project and thread identifiers are not present in the local generation record and are not inferred.",
+      "limitations": "Generative lines, labels, city texture and small text are illustrative. The covers are not map evidence, statutory boundaries, official naming, scale, engineering information or an implementation commitment."
+    },
+    {
+      "id": "DETERMINISTIC-MAP-SET-20260825",
+      "source_type": "agent_derived_validation",
+      "retrieved_at": "2026-08-25T12:00:00+08:00",
+      "usage": "One overall position-control figure and three key-area planning-structure figures generated from attributed AMap context, verified anchors, local design overlays and project data. Chinese labels are retained in the English proposal to prevent location drift during translation.",
+      "limitations": "The figures support relative-position review and design discussion only. Study extents and strategy overlays do not establish official polygons, ownership, statutory controls, road redlines or engineering feasibility."
+    },
+    {
+      "id": "FIELD-PHOTO-AUDIT-20260831",
+      "source_type": "user_provided_cleared",
+      "retrieved_at": "2026-08-31T00:00:00+08:00",
+      "usage": "Three contact sheets assembled from 499 user-provided WeChat-transferred field JPEGs, reduced by SHA-256 to 495 unique images. They evidence that a field visit occurred and document visible campus, street, crossing, barrier, park and day-night conditions for competition review.",
+      "limitations": "No transferred image retains readable EXIF time or GPS. The contact sheets therefore do not satisfy the 24-sample structured baseline and do not validate failure-rehearsal performance, operations or engineering conditions. Reuse is limited to this submission's COMMUNITY-DISPLAY-ONLY review context."
+    },
+    {
       "id": "AMAP-ORIGIN-ANCHORS-20260825",
       "url": "https://www.amap.com/",
       "source_type": "third_party_map_context",

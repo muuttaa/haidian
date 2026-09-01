@@ -18,6 +18,16 @@
       "changelog_files": [],
       "changed_files": [
         "submissions/muuttaa/jingzhang-civic-return-line/agent.json",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/cover-hero.en.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/cover-hero.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/failure-rehearsal.en.png",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/failure-rehearsal.png",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/field-origin.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/field-overview.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/field-park-day-night.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/key-area-dazhongsi.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/key-area-origin.jpg",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/key-area-zhongzhiyuan.jpg",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/key-areas.en.png",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/key-areas.png",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/land-use-structure.en.png",
@@ -26,6 +36,7 @@
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/metrics-evidence.png",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/mobility-bluegreen.en.png",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/mobility-bluegreen.png",
+        "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/overall-position-control.jpg",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/site-overview.en.png",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/figures/site-overview.png",
         "submissions/muuttaa/jingzhang-civic-return-line/assets/media/ai-innovation-spiral-poster.jpg",
@@ -74,7 +85,7 @@
       "ai_package_stages": {
         "submissions/muuttaa/jingzhang-civic-return-line": "formal"
       },
-      "total_bytes": 41151605,
+      "total_bytes": 40820591,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -152,7 +163,7 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 11,
+          "source": 15,
           "standard": 4,
           "depth": 10,
           "data": 13,

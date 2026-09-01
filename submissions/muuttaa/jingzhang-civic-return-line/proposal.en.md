@@ -19,6 +19,10 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 This proposal treats the Jing-Zhang Railway as more than a historical artifact and AI as more than a district label. It proposes a civic innovation line that returns innovation from closed campuses to streets, young people from spectators to co-builders, and technology from demonstrations to accountable everyday services.
 
+![Jingzhang Civic Return Line concept cover](assets/figures/cover-hero.en.jpg)
+
+*The cover provides the first visual statement for “0–10–100–0+” and the Three Areas–Two Wings loop. It is not map, boundary, scale, official naming or engineering evidence; spatial claims remain controlled by the position maps, GeoJSON and structured data below [source:LOVART-COVER-20260901].*
+
 ## Design Basis and Source List
 
 The open-call announcement and Agent Taskbook define the assignment [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK], while the Source Registry constrains the use of public, background and provisional material [source:SOURCE-REGISTRY]. Every spatial claim is represented in GeoJSON, every calculable value in `metrics.json`, and unconfirmed statutory planning, ownership, infrastructure and heritage conditions remain `unknown`.
@@ -26,6 +30,10 @@ The open-call announcement and Agent Taskbook define the assignment [source:OFFI
 The current Overall Design Area uses a Provisional Boundary [data:geometry/site_boundary.geojson#SITE-001] and recalculates to approximately 11.41 square kilometres [metric:site_area_sqm]. It supports conceptual design, recalculation and discussion only; it is not an Official Planning Boundary or approval. When official polygons are released, all nine GeoJSON layers, metrics, figures and drawings must be recalculated together.
 
 ![Overall structure and evidence entry points](assets/figures/site-overview.en.png)
+
+![Position-control map for parks, three key areas and enterprise anchors](assets/figures/overall-position-control.jpg)
+
+*This control map retains the attributed AMap GCJ-02 context and checks relative positions only. Study extents, community boundaries, ownership, statutory controls and engineering conditions remain provisional or unknown [source:AMAP-CONTEXT-BASEMAP] [source:DETERMINISTIC-MAP-SET-20260825]. Chinese labels are retained from the verified control figure to avoid introducing geographic changes during translation.*
 
 ## Three-Level Scope Framework
 
@@ -81,6 +89,14 @@ The three key areas provide three complementary civic innovation interfaces [dep
 Zhongzhiyuan uses a provisional extent [data:geometry/key_areas.geojson#PROV-KEY-001]; AI Origin uses a non-displayed area-equivalent study envelope [data:geometry/key_areas.geojson#PROV-KEY-002]; Dazhongsi uses a provisional extent [data:geometry/key_areas.geojson#PROV-KEY-003]. All three require professional development after boundaries, ownership, transport and engineering conditions are confirmed.
 
 ![Design tasks for the three key areas](assets/figures/key-areas.en.png)
+
+The following three controlled maps move each Key Area from a task table to a reviewable spatial proposition. Chinese map labels are retained from the verified originals; the English keys are Zhongzhiyuan AI Independent Innovation Acceleration Area, Beijing AI Origin Community, and Dazhongsi AI Industry Cluster. Study lines, extents and strategies do not replace official polygons, ownership, road redlines or engineering design [source:DETERMINISTIC-MAP-SET-20260825].
+
+![Zhongzhiyuan AI Independent Innovation Acceleration Area structure](assets/figures/key-area-zhongzhiyuan.jpg)
+
+![Beijing AI Origin Community structure](assets/figures/key-area-origin.jpg)
+
+![Dazhongsi AI Industry Cluster structure](assets/figures/key-area-dazhongsi.jpg)
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
@@ -146,7 +162,17 @@ Three everyday journeys test the contract instead of demonstrating only successf
 
 On 2026-08-27, the three journeys completed twelve offline tabletop failure rehearsals: network loss, blocked ramp, crowd surge, wrong accessible route, no account, profiling refusal, double booking, night-capacity exceedance, false public notice, staff absence, overdue appeal and overdue data deletion. All 12/12 scenarios specify a safe stop, non-AI fallback, human owner, audit fields and recovery/exit condition. Operational or field validation remains 0/12: takeover time, appeal response, accessible routes and site return have not been measured and must not be presented as achieved [data:simulation.json].
 
+![Protocol evidence and field-validation boundary for twelve failure rehearsals](assets/figures/failure-rehearsal.en.png)
+
 The real baseline uses three transects: Zhongzhiyuan–Xuezhiyuan Station–Qinghe interface; Wudaokou–Chengfu Road–AI Origin Building D interface; and Dazhongsi Station–Jimen parking area–Jing-Zhang Park interface. Weekday and weekend observations are planned for morning, noon, evening and night, using one continuous 20-minute sample per slot, for 24 planned samples. Every row remains `field_not_collected` until original photographs, WGS84 coordinates, time, observer and file SHA-256 can be traced [data:simulation.json].
+
+The team also holds 499 WeChat-transferred field photographs, reduced by hash to 495 unique images and assembled into the three contact sheets below. They evidence that a field visit occurred and record campus interiors, the AI Origin surroundings, crossings, barriers, park conditions and day–night visual context. The transferred files have no readable EXIF time or GPS, so they remain “field visual evidence,” do not count toward the 24 structured samples, and leave `field_collected_count` at 0 [source:FIELD-PHOTO-AUDIT-20260831].
+
+![Field overview and corridor-condition evidence](assets/figures/field-overview.jpg)
+
+![Field evidence around Beijing AI Origin](assets/figures/field-origin.jpg)
+
+![Field evidence for Jing-Zhang Park and day–night conditions](assets/figures/field-park-day-night.jpg)
 
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
