@@ -50,13 +50,13 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "000dd21bc64e55e6a73c3993eca5dd12a7f4805611008d9846a783ddcf637840"
+      "sha256": "2ca4dadcebdb550bc8987c2d0291b35d1306ebdb82f9d71dc6d02dfb699939fe"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "fa053966affe49c9ec9f409934d80799c1c24cc83d70f258910371aad3a49b24"
+      "sha256": "9a6a7a21b3dca0390eb470ea578aeaa5b8295eb61625bafcf6ec2f9d06c4bc12"
     },
     {
       "path": "compliance_matrix.json",
@@ -93,7 +93,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "99f776cbc8f100b06f1d629095bdf295d7422f3b50b2804e9b4b9a20fdc12588"
+      "sha256": "cb719e8042e1ef91732069fe6d8c828aaa10f70cffb489ae4c660c4173309c43"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -114,7 +114,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "f21f9f74ace3e91ab2db67589e4a6209c50e8a44e12120d684b7df701dc3f7be"
+      "sha256": "b71475c1bd951e736db0a6446e8eafd6ef1a325fe1459cf1a4761975fd7fe970"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -149,7 +149,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "b584a6937131e4e55ea98839b2dbe4a28c8a7015c8b98ebd48f17eef24f05e00"
+      "sha256": "b213991b8c8f22ce6cd0a35addfcfe10d06c3105afdf1a655d6745d30a438605"
     },
     {
       "path": "assets/figures/cover-hero.jpg",
@@ -322,7 +322,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "b9901d55b9fef992bae8f103e1ca4e8fe5f5f25ddf48004702e5b89c2393ecf6"
+      "sha256": "99e392991c3f849d2f233b30df7770f62c3e8d1115436d64b5719a22df048929"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -362,7 +362,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
-      "sha256": "88fc0d9011a4b9cd8cda92850b555581bb2b6f8638fa18979aa5dfaeab469477"
+      "sha256": "b913b9fefa86941ec77159f4c39111a5b1668b85b35d47557e3f87c113e0607d"
     },
     {
       "path": "assets/media/future-ai-life.mp4",

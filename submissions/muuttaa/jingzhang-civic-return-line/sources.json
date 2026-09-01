@@ -96,6 +96,14 @@
       "limitations": "Generative lines, labels, city texture and small text are illustrative. The covers are not map evidence, statutory boundaries, official naming, scale, engineering information or an implementation commitment."
     },
     {
+      "id": "LOVART-STRUCTURE-20260901",
+      "source_type": "ai_generated_visual_study",
+      "retrieved_at": "2026-09-01T00:00:00+08:00",
+      "usage": "Approved Chinese and English 16:9 overall-structure concept diagrams for the offline visual entry page. They communicate the Jing-Zhang Return Line, Three Areas-Two Wings and 0-10-100-0+ narrative only.",
+      "generation_record": "Lovart project 43ee14063e8c4703966623c8473f205d; thread 2f950a6e-4402-4ae3-9202-9dd30a09221a. Accepted local assets: assets/figures/site-overview.png and assets/figures/site-overview.en.png.",
+      "limitations": "Generated city texture, roads, labels and small text are illustrative. The diagrams are not map evidence, statutory boundaries, official naming, scale, engineering information or an implementation commitment. Authoritative location evidence remains in the attributed AMap position-control figure, GeoJSON and structured data."
+    },
+    {
       "id": "DETERMINISTIC-MAP-SET-20260825",
       "source_type": "agent_derived_validation",
       "retrieved_at": "2026-08-25T12:00:00+08:00",
