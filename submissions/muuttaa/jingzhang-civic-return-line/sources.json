@@ -74,34 +74,34 @@
       "usage": "AutoNavi/AMap basemap appears only as attributed geographic context in final raster figures; no statutory boundary or planning control is inferred from it."
     },
     {
-      "id": "LOVART-VISUAL-STUDY-20260824",
+      "id": "GEN-VISUAL-STUDY-20260824",
       "source_type": "ai_generated_visual_study",
-      "usage": "Lovart-generated studies informed visual hierarchy and palette only. Hallucinated roads, labels and boundaries were rejected; verified local overlays remain authoritative.",
-      "generation_record": "Lovart project 2390c2f50b7e4aa99c24cf13c56fc316; accepted geometry-free style studies only. Thread 8473dfc9-3453-4f23-b99e-abf441600e returned clarification and produced no accepted artifact."
+      "usage": "Generated studies informed visual hierarchy and palette only. Hallucinated roads, labels and boundaries were rejected; verified local overlays remain authoritative.",
+      "generation_record": "Internal generation record retained by the submitting account holder; accepted geometry-free style studies only. One clarification round produced no accepted artifact."
     },
     {
-      "id": "LOVART-SCENES-20260827",
+      "id": "GEN-SCENES-20260827",
       "source_type": "ai_generated_design_scenes",
       "retrieved_at": "2026-08-27T06:00:00+08:00",
       "usage": "Six text-free concept scenes for the A3 booklet and A0 boards. Each scene was generated only after an AMap-based V1-V6 viewpoint control image fixed the named anchor and viewing direction. The scenes communicate spatial experience, material and activity only; they are not site photographs, map evidence, approved design or construction information.",
-      "generation_record": "Lovart project 2390c2f50b7e4aa99c24cf13c56fc316; V1-V2 thread 0d49597b-c184-4efe-84c8-b2ab2d811d74; V3 thread 4466e543-86f6-420e-aefe-99033fa89fbb; V4 thread 6f0ac4e0-4ad2-481e-87ea-61e6e14c5227; V5 thread 6c43ae94-101c-428d-b99a-d919c8f859d4; V6 thread 6d711616-5811-43c9-9eb5-3d1474ad0973. Accepted assets are assets/figures/scene-v1.png through scene-v6.png.",
+      "generation_record": "Internal generation records for V1-V6 are retained by the submitting account holder. Accepted assets are assets/figures/scene-v1.png through scene-v6.png.",
       "limitations": "Generated architecture, people, vegetation, signs and small text are illustrative. Location, boundary, route, anchor, label and scale remain controlled by the separate AMap/GeoJSON figures."
     },
     {
-      "id": "LOVART-COVER-20260901",
+      "id": "GEN-COVER-20260901",
       "source_type": "ai_generated_visual_study",
       "retrieved_at": "2026-09-01T00:00:00+08:00",
       "usage": "Approved Chinese and English 16:9 concept covers for the proposal and offline visual entry page. The covers communicate the Jingzhang Civic Return Line, 0-10-100-0+ and Three Areas-Two Wings narrative only.",
-      "generation_record": "Lovart-generated assets selected by the submitting account holder from the local folder Lovart封面_总体结构与三层范围/02_横版封面. Exact project and thread identifiers are not present in the local generation record and are not inferred.",
+      "generation_record": "Generated assets selected by the submitting account holder from a locally retained cover-study folder. Exact project and thread identifiers are not present in the local generation record and are not inferred.",
       "limitations": "Generative lines, labels, city texture and small text are illustrative. The covers are not map evidence, statutory boundaries, official naming, scale, engineering information or an implementation commitment."
     },
     {
-      "id": "LOVART-STRUCTURE-20260901",
+      "id": "GEN-STRUCTURE-20260902",
       "source_type": "ai_generated_visual_study",
-      "retrieved_at": "2026-09-01T00:00:00+08:00",
-      "usage": "Approved Chinese and English 16:9 overall-structure concept diagrams for the offline visual entry page. They communicate the Jing-Zhang Return Line, Three Areas-Two Wings and 0-10-100-0+ narrative only.",
-      "generation_record": "Lovart project 43ee14063e8c4703966623c8473f205d; thread 2f950a6e-4402-4ae3-9202-9dd30a09221a. Accepted local assets: assets/figures/site-overview.png and assets/figures/site-overview.en.png.",
-      "limitations": "Generated city texture, roads, labels and small text are illustrative. The diagrams are not map evidence, statutory boundaries, official naming, scale, engineering information or an implementation commitment. Authoritative location evidence remains in the attributed AMap position-control figure, GeoJSON and structured data."
+      "retrieved_at": "2026-09-02T00:00:00+08:00",
+      "usage": "Approved Chinese and English 16:9 overall-structure diagrams for the offline visual entry page. They overlay the Jingzhang Return Line, Three Districts-Two Wings and 0-10-100-0+ return mechanism on an attributed AMap context.",
+      "generation_record": "Internal project 43ee14063e8c4703966623c8473f205d; thread 2f950a6e-4402-4ae3-9202-9dd30a09221a. Accepted submission assets: assets/figures/site-overview.png and assets/figures/site-overview.en.png; full-resolution PNG masters are retained outside the submission package.",
+      "limitations": "The AMap context supports geographic orientation only. Design overlays are conceptual and do not establish statutory boundaries, precise areas, ownership, official naming, engineering information or an implementation commitment. Controlled location evidence remains in the attributed AMap position-control figure, GeoJSON and structured data."
     },
     {
       "id": "DETERMINISTIC-MAP-SET-20260825",
@@ -193,12 +193,72 @@
       "usage": "Waterfront Toronto source for public-space, low-carbon and public-review mechanisms; paired with the project's documented digital-governance lessons."
     },
     {
-      "id": "LOVART-CONCEPT-VIDEOS-20260831",
+      "id": "GEN-CONCEPT-VIDEOS-20260831",
       "source_type": "ai_generated_concept_media",
       "retrieved_at": "2026-08-31T23:00:00+08:00",
-      "usage": "Three silent Lovart-generated concept videos for offline visual review: future AI everyday life, the AI Innovation Spiral landmark, and a four-landmark motion narrative. Submission copies were transcoded to 854 x 480 H.264 without changing sequence content; bilingual WebVTT descriptions, Markdown transcripts and local poster images are included.",
-      "generation_record": "Future AI Everyday Life: Lovart project 43ee14063e8c4703966623c8473f205d, thread ff32f7f0-d9ad-46cc-a751-0face0e70dab, returned model Seedance 2.5, original SHA-256 800744A728506BEF183BDE72BA43E6172FD21AFCDBADE0D72208BCD802F8E1FF. AI Innovation Spiral original SHA-256 38DB40BC861BBB75169B15A5E4DEF6DA02B61168BA6E30B906129442E20C64F9. Four-Landmark Motion Narrative original SHA-256 D4C47C25345A08699C74986D57B9859D749ABFEC86518253A5B567FBE05C66EF. Exact Lovart project/thread identifiers for the latter two are not present in the current local generation records.",
+      "usage": "Three silent generated concept videos for offline visual review: future AI everyday life, the AI Innovation Spiral landmark, and a four-landmark motion narrative. Submission copies were transcoded to 854 x 480 H.264 without changing sequence content; bilingual WebVTT descriptions, Markdown transcripts and local poster images are included.",
+      "generation_record": "Internal generation records are retained by the submitting account holder. Original SHA-256 values: Future AI Everyday Life 800744A728506BEF183BDE72BA43E6172FD21AFCDBADE0D72208BCD802F8E1FF; AI Innovation Spiral 38DB40BC861BBB75169B15A5E4DEF6DA02B61168BA6E30B906129442E20C64F9; Four-Landmark Motion Narrative D4C47C25345A08699C74986D57B9859D749ABFEC86518253A5B567FBE05C66EF. Exact project/thread identifiers for the latter two are not present in the current local generation records.",
       "limitations": "All people, buildings, landmarks, vegetation, signs, data overlays and small text are generative and illustrative. The videos are not site footage, map evidence, statutory planning, approved design, engineering feasibility or a construction commitment. Authoritative locations, boundaries, routes, labels, scale and metrics remain in the deterministic figures, GeoJSON and structured data."
+    },
+    {
+      "id": "SRC-NORTH-LATITUDE",
+      "url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202603/t20260323_4563718.html",
+      "source_type": "official_public",
+      "retrieved_at": "2026-09-02",
+      "usage": "Beijing municipal public notice describing the ZGC AI North-Latitude Community as an AI-native enterprise ecosystem. Used only for the capability-base column of the regional collaboration matrix.",
+      "limitations": "The source does not establish any partnership with this proposal. All proposed interfaces, pilots and exchanged outputs remain conceptual."
+    },
+    {
+      "id": "SRC-FUTURE-SCIENCE",
+      "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/ghjhwb/wngh/202104/W020250718726456151055.pdf",
+      "source_type": "official_public",
+      "retrieved_at": "2026-09-02",
+      "usage": "Official Beijing planning source describing Future Science City's technology-innovation, collaborative-innovation and transfer ecosystem. Used only for the capability-base column.",
+      "limitations": "No project-level agreement or technical-service availability is inferred. Specific capabilities require item-level confirmation."
+    },
+    {
+      "id": "SRC-HUAIROU-SCIENCE",
+      "url": "https://hsc.beijing.gov.cn/hsc/index/gywm97/index.shtml",
+      "source_type": "official_public",
+      "retrieved_at": "2026-09-02",
+      "usage": "Official Huairou Science City description of major science facilities, cross-disciplinary platforms and original-innovation positioning. Used only for the capability-base column.",
+      "limitations": "Facility access, data licensing, capacity and project cooperation are not assumed and remain unknown."
+    },
+    {
+      "id": "SRC-BDA-INNOVATION",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260810_4816551.html",
+      "source_type": "official_public",
+      "retrieved_at": "2026-09-02",
+      "usage": "Official Beijing E-Town measures covering proof of concept, engineering validation, open scenarios and technology transfer. Used only for the capability-base column.",
+      "limitations": "The source does not establish admission, safety, commercial terms or an existing cooperation relationship for this proposal."
+    },
+    {
+      "id": "SRC-JJJ-INNOVATION",
+      "url": "https://www.beijing.gov.cn/ywdt/gzdt/202505/t20250515_4089719.html",
+      "source_type": "official_public",
+      "retrieved_at": "2026-09-02",
+      "usage": "Beijing municipal account of cross-regional technology transfer, supply-demand matching and industry-chain coordination in Beijing-Tianjin-Hebei. Used only for the capability-base column.",
+      "limitations": "No delivery project, off-site trial or accountable cross-region owner is claimed by this proposal."
+    },
+    {
+      "id": "GEN-OPENAI-IMAGE2-PUBLIC-INTERFACE-20260902",
+      "path": "assets/figures/return-line-public-interface-imagegen2.png",
+      "sha256": "6f9bb7d2224822ccdf4b688c14581a274ef3fdb21972fc87b5b3263593759105",
+      "source_type": "ai_generated_design_scene",
+      "retrieved_at": "2026-09-02T19:00:00+08:00",
+      "usage": "Text-free concept scene used on the controlled A0 public-rights board and the matched A3 bilingual cover. It illustrates a rail-heritage civic interface, inclusive public use and staffed fallback service only.",
+      "generation_record": "Generated with OpenAI built-in Image 2 using an existing project rail-park concept image as visual reference. No Lovart service or asset was used in this revision.",
+      "limitations": "All people, architecture, planting, devices and spatial relationships are illustrative. The image is not a site photograph, map, official boundary, statutory plan, approved design, engineering evidence or implementation commitment."
+    },
+    {
+      "id": "GEN-PERSONA-SCENE-GOVERNANCE-20260903",
+      "path": "assets/figures/persona-scene-governance-lovart-v3.jpg",
+      "sha256": "12a830c50a8f6fc80d6a3bd245d02aeb898ea6b11513c98ffe04688f21284a21",
+      "source_type": "ai_generated_visual_study",
+      "retrieved_at": "2026-09-03T21:30:00+08:00",
+      "usage": "Text-free relationship visual used on matched Chinese and English A0 A05 boards. It supports the locally typeset five-persona, three-space, ten-scene and four-stage governance diagram only; all claims, labels and identifiers are local vector text.",
+      "generation_record": "Lovart project 43ee14063e8c4703966623c8473f205d; thread 17d37803-8595-49fe-96e3-e128c4386bd7. Accepted master SHA-256 31B2B8E79830F1EE70725C1578B4E1310FC94765E346AB7B378400171D4DF953; the submitted JPEG is a deterministic 4000 px, quality-90 derivative.",
+      "limitations": "Illustrative relationship background only. It is not a site photograph, map, official boundary, statutory plan, user-research result, partnership evidence, engineering design or implementation commitment."
     }
   ]
 }

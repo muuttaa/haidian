@@ -34,7 +34,7 @@
     {
       "id": "A-GENERATIVE-006",
       "status": "visual_reference_only",
-      "statement": "Lovart outputs may influence palette, atmosphere and hierarchy but cannot define roads, labels, boundaries, quantities or observed site conditions.",
+      "statement": "Generated imagery may influence palette, atmosphere and hierarchy but cannot define roads, labels, boundaries, quantities or observed site conditions.",
       "impact": "Any generated geography is rejected; final factual overlays are rebuilt from registered local data and deterministic scripts."
     },
     {

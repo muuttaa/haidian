@@ -21,7 +21,7 @@ This proposal treats the Jing-Zhang Railway as more than a historical artifact a
 
 ![Jingzhang Civic Return Line concept cover](assets/figures/cover-hero.en.jpg)
 
-*The cover provides the first visual statement for “0–10–100–0+” and the Three Areas–Two Wings loop. It is not map, boundary, scale, official naming or engineering evidence; spatial claims remain controlled by the position maps, GeoJSON and structured data below [source:LOVART-COVER-20260901].*
+*The cover provides the first visual statement for “0–10–100–0+” and the Three Areas–Two Wings loop. It is not map, boundary, scale, official naming or engineering evidence; spatial claims remain controlled by the position maps, GeoJSON and structured data below [source:GEN-COVER-20260901].*
 
 ## Design Basis and Source List
 
@@ -30,6 +30,8 @@ The open-call announcement and Agent Taskbook define the assignment [source:OFFI
 The current Overall Design Area uses a Provisional Boundary [data:geometry/site_boundary.geojson#SITE-001] and recalculates to approximately 11.41 square kilometres [metric:site_area_sqm]. It supports conceptual design, recalculation and discussion only; it is not an Official Planning Boundary or approval. When official polygons are released, all nine GeoJSON layers, metrics, figures and drawings must be recalculated together.
 
 ![Overall structure and evidence entry points](assets/figures/site-overview.en.png)
+
+*The overall-structure figure overlays the Open-Rail spine, Three Districts–Two Wings and the “0—10—100—0+” return mechanism on an AMap context. It supports relationship checking, not statutory boundaries, precise areas, ownership or engineering conditions [source:GEN-STRUCTURE-20260902].*
 
 ![Position-control map for parks, three key areas and enterprise anchors](assets/figures/overall-position-control.jpg)
 
@@ -41,13 +43,27 @@ The three levels form one evidence chain from strategy to delivery, not three di
 
 | Level | Key question | Proposal deliverable |
 | --- | --- | --- |
-| Coordinated Research Area, approx. 43.6 km2 | How do Haidian's AI industry, talent and future city reinforce one another? | An innovation chain linking university origination, open-source collaboration, enterprise transfer, civic experience and international communication |
-| Overall Design Area, approx. 11.4 km2 | How do Urban Renewal, mobility, Blue-Green Space and services become spatial? | One Open Rail spine, east-west stitching interfaces and recalculable spatial layers |
-| Three Key-Area Detailed Design Areas, approx. 368.4 ha total | How do individual districts become deliverable projects? | Three kinds of innovation commons, ten scenario cards and near-, mid- and long-term project packages |
+| Coordinated Research Area: `unknown`, pending an official extent file | How do Haidian's AI industry, talent and future city reinforce one another? | An innovation chain linking university origination, open-source collaboration, enterprise transfer, civic experience and international communication |
+| Provisional master-design model: approximately 11.41 km2 | How do Urban Renewal, mobility, Blue-Green Space and services become spatial? | One Open Rail spine, east-west stitching interfaces and recalculable spatial layers |
+| Three concept focus areas: area and statutory boundary both `unknown` | How do individual districts become deliverable projects? | Three kinds of innovation commons, ten scenario cards and near-, mid- and long-term project packages |
 
-Key-area evidence is read from an independent layer [data:geometry/key_areas.geojson#PROV-KEY-001]. The rejected Beijing AI Origin rectangle has been deleted. The Polygon required for machine validation is now a 104.3 ha area-equivalent study envelope controlled by the verified Origin Building, Wudaokou Station and Jing-Zhang Railway Heritage Park relationship [data:geometry/key_areas.geojson#PROV-KEY-002]. It is not drawn as a community boundary and must not be interpreted as official limits.
+Key-area evidence is read from an independent layer [data:geometry/key_areas.geojson#PROV-KEY-001]. The rejected Beijing AI Origin rectangle has been deleted. The provisional study envelope used for machine validation now serves only file-structure and relative-position checks [data:geometry/key_areas.geojson#PROV-KEY-002]. Its area is no longer displayed, and it must not be interpreted as a community boundary, official limit or approved extent.
 
 ![Three-level scope and Open Rail structure](assets/figures/land-use-structure.en.png)
+
+## Regional Collaboration Interfaces
+
+The matrix separates officially documented existing capabilities from interfaces proposed by this design. Capability descriptions follow official public sources. Connections, role divisions and exchanged outputs are concept proposals; they do not claim signed, approved or established partnerships.
+
+| Node | Officially documented capability base | Proposed Jingzhang output | Concept interface | Uncertainty |
+| --- | --- | --- | --- | --- |
+| ZGC AI North-Latitude Community [source:SRC-NORTH-LATITUDE] | AI-native firms and lightweight-team ecosystem | Problems, teams and early products enter bounded urban tests | Problem register—compliance screen—bounded pilot—public evaluation | No partnership confirmed; place and operations follow official records |
+| Future Science City [source:SRC-FUTURE-SCIENCE] | Technology-innovation and transfer ecosystem | Specialist test demand and transferable results enter the open-validation chain | Topic list—proof of concept—two-way referral | No project agreement; specific capabilities require item-level verification |
+| Huairou Science City [source:SRC-HUAIROU-SCIENCE] | Major science facilities and original-innovation platforms | Scientific questions, instrument demand and cross-disciplinary results become civic topics | Public facility capability—demand match—human review | Facility access conditions and data licences remain unknown |
+| Beijing E-Town [source:SRC-BDA-INNOVATION] | Engineering validation, open scenarios and industrialisation | Mature test results connect to pilot-scale production, manufacturing and demonstrations | Test record—engineering assessment—scenario/industry referral | No existing cooperation claimed; admission, safety and commercial terms pending |
+| Beijing–Tianjin–Hebei [source:SRC-JJJ-INNOVATION] | Cross-regional transfer, supply-demand matching and industrial-chain coordination | Replicable public-AI rules, test records and service components | Standard evidence pack—regional demand list—off-site retest | No delivery project claimed; cross-region compliance and accountable owner pending |
+
+The matrix is not a partnership commitment. Implementation at any node requires a named accountable owner, written authorisation, data licence, pilot site, safety boundary and exit condition.
 
 ## Coordinated Research Area: Industry and Future City Research
 
@@ -231,7 +247,7 @@ Core projects are JZ-01 mobility-gap stitching, JZ-02 Qinghe innovation interfac
 
 ## Metrics, Area Recalculation, and Compliance Matrix
 
-Metrics are managed in three groups [depth:metrics_recalculation]: geometry-derived metrics are recalculated directly; statutory controls wait for official material; operational performance is measured through real pilots. The provisional Overall Design Area is approximately 11.41 km2 [metric:site_area_sqm], with about 12.34% green space, 7.33% Public Space and 2.72% Building Footprint. These are low-confidence design quantities derived from provisional geometry, not approved controls.
+Metrics are managed in three groups [depth:metrics_recalculation]: geometry-derived metrics are recalculated directly; statutory controls wait for official material; operational performance is measured through real pilots. Formal visuals retain only three recalculable core values: a provisional master-design model of approximately 11.41 km2 [metric:site_area_sqm], a green ratio of approximately 12.34% [metric:green_ratio], and a public-space ratio of approximately 7.33% [metric:public_space_ratio]. They are low-confidence design quantities derived from provisional geometry, not approved controls. Other areas, population, investment, schedules, line lengths and engineering conclusions are not presented as proposal facts.
 
 ![Core metrics, Evidence Chain and governance loop](assets/figures/metrics-evidence.en.png)
 

@@ -2,7 +2,7 @@
 
 - 时长 / Duration: 18.04 秒 / seconds
 - 规格 / Format: 854 × 480, 24 fps, H.264, 无声 / silent
-- 性质 / Status: Lovart 生成式概念影像 / generative concept imagery
+- 性质 / Status: 生成式概念影像 / generative concept imagery
 
 ## 画面说明 / Visual description
 
